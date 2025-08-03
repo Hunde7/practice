@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 95%;
+    margin: 2%;
+}
+h1, p{
+    text-align: center;
+    font-size: 2rem;
+}
+@media (min-width: 720px) {
+    h1, p{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 885px) {
+    h1, p{
+        font-size: 3rem;
+    }
+}
